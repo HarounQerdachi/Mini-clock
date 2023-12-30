@@ -1,12 +1,16 @@
 # Mini Clock - Customizable Pomodoro Timer
 
-Welcome to Mini Clock, your personalized Pomodoro timer designed to adapt to your unique workflow! Customize your work and break intervals to create a tailored productivity experience that aligns with your needs.
+Welcome to Mini Clock, the Pomodoro timer designed to adapt to your unique workflow! Customize your work and break intervals to create a tailored productivity experience that fits your needs. Mini Clock empowers you to take control of your time and optimize your work sessions.
 
 ## Features
 
 ### Flexible Customization
 
-Adjust the number of sets, work session duration, and break length to match your preferred Pomodoro rhythm. Mini Clock allows you to personalize your focus sessions for optimal productivity.
+Adjust the following parameters to create your ideal Pomodoro routine:
+
+- Number of sets
+- Work session duration
+- Break length
 
 ### Intuitive Interface
 
