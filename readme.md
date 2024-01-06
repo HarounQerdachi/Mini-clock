@@ -33,7 +33,12 @@ Utilize the statistics feature to stay motivated and identify patterns in your w
 
 2. Customize your Pomodoro settings by editing the configuration file.
 
-3. Run Mini Clock and stay focused on your goals!
+3. Install the project dependencies by running:
+
+   ```bash
+    pip install -r requirements.txt
+
+4. Run Mini Clock and stay focused on your goals!
 
 ### Contributing
 
