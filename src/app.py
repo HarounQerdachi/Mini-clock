@@ -2,19 +2,22 @@ import flet as ft
 
 def main(page: ft.Page):
     # Set a title and adding some color to the background
-    page.title= "Mini clock"
-    page.bgcolor= "#323232"
+    page.title= "Mini clock - by HarounQerdachi"
+    #page.bgcolor= "#323232"
     # Set the width and the height of the app
     page.window_width= 1000
     page.window_height= 550
-    # page.theme_mode= "dark"
+    page.theme_mode= "dark"
 
     # Disable resizing the app
     page.window_resizable= False
 
     #Adding fonts
     page.fonts= {
-            "Open Sans": "fonts/OpenSans-Regular.ttf",
+            "Open Sans Regular": "fonts/OpenSans-Regular.ttf",
+            "Open Sans Italic": "fonts/OpenSans-Italic.ttf",
+            "Open Sans Light": "fonts/OpenSans-Light.ttf",
+            "Open Sans SemiBold": "fonts/OpenSans-SemiBold.ttf",
             "Fanlste": "fonts/fanlste.otf",
         }
 
@@ -24,16 +27,16 @@ def main(page: ft.Page):
                 controls= [
                     ft.Text(
                         "Mini Clock",
-                        size= 28,
-                        weight= "w700",
+                        size= 24,
                         color= "white",
-                        font_family= 'Open Sans',
+                        font_family= 'Fanlste',
                     ),
                     ft.Text(
-                        "The pomodoro timer that empowers you to take control of your time and optimize your work sessions.",
+                        "The pomodoro timer that empowers you to take control \nof your time and optimize your work sessions.",
                         size= 14,
                         color= "white",
-                        font_family= 'Open Sans',
+                        font_family= 'Open Sans Italic',
+                        text_align= 'center',
                     ),
                 ],
                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
